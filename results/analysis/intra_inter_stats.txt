@@ -1,0 +1,15 @@
+INTRA‑CLASS average ± std distance to centroid
+  Rabbit    : 1.9645 ± 0.7647
+  Yoga      : 2.0184 ± 0.7840
+  Hand      : 1.8791 ± 0.8254
+  Snowman   : 1.5848 ± 0.7448
+  Motorbike : 1.7295 ± 0.7711
+
+INTER‑CLASS centroid distance matrix (rows/cols match class order)
+0.0000 2.5269 3.4521 3.2568 3.5027
+2.5269 0.0000 3.1381 3.0380 3.0136
+3.4521 3.1381 0.0000 4.0130 4.0800
+3.2568 3.0380 4.0130 0.0000 4.4234
+3.5027 3.0136 4.0800 4.4234 0.0000
+
+Silhouette score: 0.2289
