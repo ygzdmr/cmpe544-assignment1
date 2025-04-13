@@ -9,10 +9,6 @@ from skimage.feature import hog
 def load_data(data_path='data/quickdraw/'):
     """
     Loads the QuickDraw dataset from given .npy files.
-
-    Args:
-        data_path (str, optional): Path to the directory containing the .npy files.
-            Defaults to 'data/quickdraw/'.
     """
 
     print("Loading data...")
