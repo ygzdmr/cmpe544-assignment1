@@ -9,7 +9,7 @@ def investigate_feature_space(X, y, class_names, output_dir='results/analysis'):
     classes = np.unique(labels)
     C = len(classes)
 
-    # 1. LDA scatter (first two components)
+    # 1. LDA scatter
     if X.shape[1] >= 2:
         plt.figure(figsize=(6, 5))
         colors = plt.cm.tab10(np.linspace(0, 1, C))

@@ -16,8 +16,8 @@ class KNN:
         Initializes the KNN classifier.
         """
         self.k = k
-        self.X_train = None  # Training data features
-        self.y_train = None  # Training data labels
+        self.X_train = None
+        self.y_train = None
 
     def fit(self, X, y):
         """

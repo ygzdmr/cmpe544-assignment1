@@ -62,7 +62,7 @@ def run_em_algorithm(data, n_components=3, max_iter=100, tolerance=1e-4, output_
         print(f"Plots will be saved to: {output_dir}")
     except OSError as e:
         print(f"Error creating output directory '{output_dir}': {e}")
-        return None # Cannot proceed without output directory
+        return None
 
     # Task 1: Plot and save the scatter plot of the data
     print("Saving raw data scatter plot...")
@@ -208,7 +208,7 @@ def run_em_algorithm(data, n_components=3, max_iter=100, tolerance=1e-4, output_
         plt.savefig(os.path.join(output_dir, 'em_clustering_with_gaussians.png'))
     except Exception as e:
         print(f"Error saving clustering plot: {e}")
-    plt.close() # Close the figure
+    plt.close()
 
     # Plot and save log-likelihood history
     print("Saving log-likelihood plot...")
