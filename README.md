@@ -1,6 +1,6 @@
 # CMPE544 - Assignment 1: Expectation Maximization and Classification
 
-This repository contains the code and report for CMPE544 Assignment 1, focusing on pattern recognition techniques.
+This repository contains the code and report for Assignment 1 of CMPE544 – Pattern Recognition at Boğaziçi University. The assignment focuses on implementing the Expectation-Maximization algorithm, as well as k-NN, Gaussian Naive Bayes, and Multinomial Logistic Regression classifiers.
 
 ## Project Structure
 
