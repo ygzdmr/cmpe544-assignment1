@@ -26,7 +26,7 @@ The project is organized as follows:
 
 ## Requirements
 
-To run the code, you need to install the following Python packages. You can install them using pip:
+To run the code, you need to install the following required packages. You can install them using pip:
 ```bash
 pip install -r requirements.txt
 ```
